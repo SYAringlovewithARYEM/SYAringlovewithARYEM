@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Syahida Aqilah & Aryem Wedding Invitation</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Background Music -->
+  <audio id="bg-music" autoplay loop>
+    <source src="https://files.catbox.moe/7on7r1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <button id="music-toggle">⏸ Pause Music</button>
+
+  <!-- Countdown at the very top -->
+  <section id="countdown">
+    <h2>Countdown to Our Big Day</h2>
+    <div id="timer">
+      <div><span id="days"></span> Days</div>
+      <div><span id="hours"></span> Hours</div>
+      <div><span id="minutes"></span> Minutes</div>
+      <div><span id="seconds"></span> Seconds</div>
+    </div>
+  </section>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Syahida Aqilah & Aryem</h1>
+    <p class="date">12 December 2025</p>
+    <p class="hashtag">#SYAringlovewithARYEM</p>
+  </header>
+
+  <!-- Gallery -->
+  <section class="gallery">
+    <h2>Our Moments</h2>
+    <p>Share with us on Instagram: <strong>#SYAringlovewithARYEM</strong></p>
+    <div class="gallery-grid">
+      <img src="https://via.placeholder.com/300" alt="Gallery image 1" />
+      <img src="https://via.placeholder.com/300" alt="Gallery image 2" />
+      <img src="https://via.placeholder.com/300" alt="Gallery image 3" />
+    </div>
+  </section>
+
+  <!-- RSVP Form -->
+  <section class="rsvp">
+    <h2>RSVP</h2>
+    <form id="rsvp-form">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" required />
+
+      <label for="attendance">Will you attend?</label>
+      <select id="attendance" required>
+        <option value="">-- Select --</option>
+        <option value="yes">Yes, I will attend</option>
+        <option value="no">Sorry, I cannot attend</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="form-message"></p>
+  </section>
+
+  <footer>
+    <p>Made with love ♥ | #SYAringlovewithARYEM</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
