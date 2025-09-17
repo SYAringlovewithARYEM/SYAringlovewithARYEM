@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #fffaf5;
+  color: #333;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+.hero {
+  padding: 2rem;
+  background: #fcefe3;
+}
+
+.date {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.hashtag {
+  font-weight: bold;
+  color: #a0522d;
+  font-size: 1.2rem;
+}
+
+/* Countdown */
+#countdown {
+  background: #fff3e0;
+  padding: 1.5rem;
+}
+#timer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Gallery */
+.gallery {
+  padding: 2rem;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.gallery-grid img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* RSVP */
+.rsvp {
+  padding: 2rem;
+  background: #f9f9f9;
+}
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+input, select, button {
+  padding: 0.7rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+button {
+  background: #a0522d;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background: #8b4513;
+}
+
+/* Music Toggle */
+#music-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50px;
+  background: #a0522d;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Footer */
+footer {
+  padding: 1rem;
+  background: #fcefe3;
+  font-size: 0.9rem;
+}
